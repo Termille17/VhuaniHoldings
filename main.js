@@ -1,3 +1,16 @@
+var typed = new Typed('.typing', {
+  strings: [
+    "Billboard Advertising Space", 
+    "Outdoor Signage", 
+    "Indoor Signage", 
+    "Laser and CNC Cutting", 
+    "Expo and Event Branding"
+  ],
+  typeSpeed: 50,
+  backSpeed: 60,
+  loop: true
+});
+
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
@@ -81,3 +94,5 @@ ScrollReveal().reveal(".subscribe__content form", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+
